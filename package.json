@@ -1,0 +1,30 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "concurrently -kr \"npm run start:tsc\" \"npm run start:nodemon\"",
+    "start:tsc": "tsc -w",
+    "start:nodemon": "nodemon --watch build ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emin93/brain-games.git"
+  },
+  "author": "Emin Khateeb <emin@emin.ch>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/emin93/brain-games/issues"
+  },
+  "homepage": "https://github.com/emin93/brain-games#readme",
+  "devDependencies": {
+    "@types/node": "13.11.0",
+    "@typescript-eslint/eslint-plugin": "2.26.0",
+    "@typescript-eslint/parser": "2.26.0",
+    "concurrently": "5.1.0",
+    "eslint": "6.8.0",
+    "nodemon": "2.0.2",
+    "typescript": "3.8.3"
+  }
+}
