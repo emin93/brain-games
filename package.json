@@ -18,6 +18,9 @@
     "url": "https://github.com/emin93/brain-games/issues"
   },
   "homepage": "https://github.com/emin93/brain-games#readme",
+  "dependencies": {
+    "brain.js": "2.0.0-alpha.12"
+  },
   "devDependencies": {
     "@types/node": "13.11.0",
     "@typescript-eslint/eslint-plugin": "2.26.0",
